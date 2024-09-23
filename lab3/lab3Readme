@@ -1,0 +1,12 @@
+BY SUBMITTING THS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO THE TENURES OF THE OHIO STATE UNIVERSITY'S ACADEMIC INTEGRITY POLICY WITH
+RESPECT TO THIS ASSIGNMENT.
+THIS IS THE README FILE FOR LAB 3.
+
+Name: Daniel Legesse
+Total Time Taken: 8 hours
+Comments: None
+Describe how you used gdb to find a bug in your problem while debigging or if you had no bugs, how
+you used gdb to verify that your program was working correctley?: I did not have any bugs in my 
+program so I used gdb to verify my code. I set breakpoints at main, get_ingredients, and get_thispizza
+I then ran the gdb and printed the variables "ingredients" and "thispizza" and their elements in
+their respective arrays. I stepped through the entire program and everything printed correctly.
