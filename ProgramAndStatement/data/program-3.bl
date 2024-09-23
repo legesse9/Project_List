@@ -1,0 +1,24 @@
+PROGRAM Process IS
+  INSTRUCTION FindObstacle IS
+    IF next-is-empty THEN
+      turnleft
+    END IF
+    IF next-is-empty THEN
+      turnleft
+    END IF
+  END FindObstacle
+
+BEGIN
+  WHILE true DO
+    WHILE next-is-empty DO
+      FindObstacle
+    END WHILE
+      IF next-is-enemy THEN
+        infect
+      ELSE
+        IF next-is-wall THEN
+          turnright
+        END IF
+      END IF
+  END WHILE
+END Process
