@@ -1,0 +1,20 @@
+PROGRAM Eliminate IS
+
+  INSTRUCTION turn IS
+     move
+     turnleft
+  END turn
+  
+  INSTRUCTION moveTwice IS
+    move
+    move
+  END moveTwice
+
+BEGIN
+  WHILE true DO
+    IF next-is-empty THEN
+      turn
+    END IF
+    moveTwice
+  END WHILE
+END Eliminate
